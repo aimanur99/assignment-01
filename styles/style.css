@@ -27,6 +27,13 @@ body {
     text-align: left;
 }
 
+.text-3 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+}
+
 .dark-1 {
     color: rgb(13, 19, 33);
 }
@@ -64,7 +71,17 @@ body {
     margin-left: 330px;
 }
 
-.btn-2 {}
+.btn-2 {
+    width: 149px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.6;
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
 
 .btn-3 {}
 
@@ -122,8 +139,8 @@ nav li a {
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-    
-    
+
+
 }
 
 .banner-title {
@@ -152,45 +169,78 @@ nav li a {
     width: 85%;
     margin: 0 auto;
     height: 1395px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 75px;
+    padding: 80px 0px 40px 0px;
 }
 
 .web-container {
     width: 90%;
     height: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-    border: 2px solid blue;
+    margin: auto;
+    
+    /* border: 2px solid blue; */
 }
 
 .web-content {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid green;
+    /* margin-top: 80px; */
+    /* border: 2px solid green; */
 }
 
-.web-title {}
+.web-title {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+}
 
-.web-description {}
+.web-description {
+    color: rgb(13, 19, 33);
+}
 
 .web-box {
-    height: 30%;
-    border: 2px solid tomato;
-    margin-top: 30px;
+    height: 28.5%;
+    /* border: 2px solid tomato; */
+    margin-left: 70px;
+    margin-top: 50px;
     display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+.wb-1,
+.wb-2,
+.wb-3 {
+    /* padding: 48px; */
+    /* border: 2px solid violet; */
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    display: flex;
+    
 }
 
 .first,
 .second,
 .third {
-    padding: 48px;
-    border: 2px solid violet;
+    /* border: 2px solid black; */
+    margin: 10px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
+
+.im-1, .im-2, .im-3 {
+    width: 35%;
+    height: 70%px;
+    /* margin-left: 100px; */
 }
 
 .box-title {}
