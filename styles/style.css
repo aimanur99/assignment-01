@@ -25,6 +25,7 @@ body {
     font-size: 16px;
     font-weight: 400px;
     text-align: left;
+    color: rgb(13, 19, 33);
 }
 
 .text-3 {
@@ -32,6 +33,23 @@ body {
     font-weight: 700;
     text-align: left;
     color: rgba(13, 19, 33, 0.7);
+}
+
+.text-4 {
+    font-size: 14px;
+    font-weight: 300px;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    opacity: 0.6;
+
+}
+
+.text-5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
 }
 
 .dark-1 {
@@ -180,7 +198,7 @@ nav li a {
     width: 90%;
     height: 90%;
     margin: auto;
-    
+
     /* border: 2px solid blue; */
 }
 
@@ -222,7 +240,7 @@ nav li a {
     height: 85%;
     margin: auto;
     display: flex;
-    
+
 }
 
 .first,
@@ -237,11 +255,14 @@ nav li a {
 }
 
 
-.im-1, .im-2, .im-3 {
+.im-1,
+.im-2,
+.im-3 {
     width: 35%;
     height: 70%px;
     /* margin-left: 100px; */
 }
+
 
 .box-title {}
 
@@ -264,7 +285,8 @@ nav li a {
     text-align: center;
     margin-bottom: 48px;
 }
-.insp-title{
+
+.insp-title {
     font-weight: 800;
     font-size: 32px;
     text-align: center;
@@ -296,7 +318,7 @@ nav li a {
     width: 85%;
     margin: 0 auto;
     height: 1505px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 180px;
 }
 
@@ -305,36 +327,62 @@ nav li a {
 .target-content {
     width: 80%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
 }
 
+.target-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
 .t-b-container {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     height: 550px;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
-
+    align-items: center;
+    /* margin: 48px 0px; */
 }
 
 .target-box {
-    border: 2px solid green;
+    /* border: 2px solid red; */
     width: 30%;
     display: flex;
     justify-content: space-between;
     padding: 40px;
 }
 
+.fb-1 {
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    color: rgba(255, 76, 30, 0.05);
+}
+
+.fb-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    color: rgba(0, 76, 232, 0.05);
+}
+
+.fb-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    color: rgba(255, 223, 0, 0.05);
+}
+
 .fb-1,
 .fb-2,
 .fb-3 {
+    width: 30%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: left;
-    gap: 24px;
+
 }
 
 .fb-im-1,
@@ -344,43 +392,102 @@ nav li a {
     height: 56px;
 }
 
+.t-b-t1,
+.t-b-t2,
+.t-b-t3 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.b-title {
+    margin: 8px 0px;
+}
+
+.b-description {
+    margin: 8px 0px;
+}
+
 .next-container {
     width: 100%;
     height: 870px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 
 .next-content {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     width: 80%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 48px;
 }
 
-.next-title {}
+.next-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
 
 .next-description {}
 
 .next-box {
+    width: 100%;
+    height: 84%;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 40px;
+    gap: 32px;
 }
 
-.n-b-container {}
+
+.n-b-container {
+    height: 30%;
+    /* border: 2px solid violet; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
 
 .nb-1,
 .nb-2,
-.nb-3 {
-    border: 2px solid violet;
+.nb-3 {}
+
+.nb-im {
+    /* width: 108px; */
+    /* height: 108px; */
+    /* border: 2px solid blue; */
+    margin-left: 40px;
+}
+
+.n-b-t1,
+.n-b-t2,
+.n-b-t3 {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    /* border: 2px solid red; */
+    /* padding: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
-.nb-im {
-    width: 108px;
-    height: 108px;
+.n-b-title {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    color: rgb(13, 19, 33);
 }
 
 /* support styles */
@@ -390,10 +497,12 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 85%;
-    height: 314px;
+    height: 320px;
     margin: 0 auto;
     border: 2px solid green;
     margin-top: 40px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
 
 .support-container {}
@@ -402,20 +511,35 @@ nav li a {
     width: 90%;
     height: 80%;
     margin: 0 auto;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin-top: 34px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.support-title {}
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
 
-.support-details {}
+.support-details {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 
-input {
-    width: 580px;
+.suppot-input {
+    gap: 10px;
+}
+
+input[type="text"] {
+    width: 548px;
     height: 55px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -423,6 +547,26 @@ input {
     background-color: rgb(255, 255, 255);
 }
 
+input[placeholder="Suggest me any feedback for me"] {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px 16px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+}
+
+/* footer styles */
 .footer-container {
     width: 100%;
     height: 100px;
